@@ -1,0 +1,17 @@
+.card_button {
+    width: 40%;
+    border:none;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 0.8em;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    background-color: rgb(238, 222, 130);
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0.4em 0.4em 0.8em gray;
+
+    }
+}

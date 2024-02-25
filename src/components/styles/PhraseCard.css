@@ -1,0 +1,11 @@
+.card_phrase {
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1em;
+}
+.card_phrase::after{
+    content: '"';
+}
+.card_phrase::before{
+    content: '"';
+}
