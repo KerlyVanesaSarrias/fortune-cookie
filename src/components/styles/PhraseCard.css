@@ -2,6 +2,7 @@
     font-weight: 500;
     line-height: 1.5;
     font-size: 1em;
+    font-style: italic;
 }
 .card_phrase::after{
     content: '"';

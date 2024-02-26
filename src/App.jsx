@@ -6,6 +6,7 @@ import phrases from './utils/phrases.json'
 import PhraseCard from './components/PhraseCard';
 import ButtonPhrase from './components/ButtonPhrase';
 import arrImages from './utils/arrImages.json'
+import Author from './components/Author';
 
 function App() {
   const initialPhrase = getRandomFromArray(phrases);
@@ -26,6 +27,7 @@ function App() {
             setPhraseRandom={setPhraseRandom}
             setImageSelected={setImageSelected}/>
         </article>
+        <Author/>
       </div>
     
   )
