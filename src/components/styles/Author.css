@@ -1,0 +1,9 @@
+.author {
+    width: 30%;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.658);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+}
